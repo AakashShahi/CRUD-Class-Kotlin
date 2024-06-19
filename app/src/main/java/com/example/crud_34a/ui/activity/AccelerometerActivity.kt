@@ -59,6 +59,7 @@ class AccelerometerActivity : AppCompatActivity(), SensorEventListener {
 
         accelerometerBinding.value.text=
             "x-axis:$xAxis y-axis:$yAxis z-axis:$zAxis"
+        detectShake(xAxis,yAxis,zAxis)
 
     }
 

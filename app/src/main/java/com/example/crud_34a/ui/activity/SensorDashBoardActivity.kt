@@ -23,5 +23,9 @@ class SensorDashBoardActivity : AppCompatActivity() {
         sensorDashBoardBinding.button3.setOnClickListener{
             startActivity(Intent(this@SensorDashBoardActivity,AccelerometerActivity::class.java))
         }
+
+        sensorDashBoardBinding.gyruBtn.setOnClickListener{
+            startActivity(Intent(this@SensorDashBoardActivity,GyroSensorActivity::class.java))
+        }
     }
 }
